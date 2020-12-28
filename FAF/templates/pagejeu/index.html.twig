@@ -4,9 +4,10 @@
 
 {% block body %}
     <h1>Les {{pages|length}} jeux:</h1>
+    <h3><a href="/pages/create">Créer une nouvelle page</a></h3>
 
     {% for page in pages %}
-        <h2><a href="{{ path('app_pagejeu_show', {id:page.id})}}">{{ page.title }}</a></h2>
+        <h2><a href="/pages/{{ page.id}}">{{ page.title }}</a></h2>
         <p>{{ page.description }}</p>
     {% endfor %}
 {% endblock %}

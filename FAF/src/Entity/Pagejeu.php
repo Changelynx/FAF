@@ -7,6 +7,8 @@ use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity(repositoryClass=PagejeuRepository::class)
+ * @ORM\Table(name="pagejeu")
+ * @ORM\HasLifecycleCallbacks
  */
 class Pagejeu
 {
@@ -26,6 +28,7 @@ class Pagejeu
      * @ORM\Column(type="text")
      */
     private $description;
+
 
     public function getId(): ?int
     {
