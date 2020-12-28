@@ -8,12 +8,9 @@
 return [
     false, // $matchHost
     [ // $staticRoutes
-<<<<<<< HEAD
         '/' => [[['_route' => 'app_home', '_controller' => 'App\\Controller\\PagejeuController::index'], null, null, null, false, false, null]],
-=======
         '/login' => [[['_route' => 'app_login', '_controller' => 'App\\Controller\\SecurityController::login'], null, null, null, false, false, null]],
         '/logout' => [[['_route' => 'app_logout', '_controller' => 'App\\Controller\\SecurityController::logout'], null, null, null, false, false, null]],
->>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
     ],
     [ // $regexpList
         0 => '{^(?'

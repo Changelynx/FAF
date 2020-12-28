@@ -5,5 +5,7 @@
 return [
     '_preview_error' => [['code', '_format'], ['_controller' => 'error_controller::preview', '_format' => 'html'], ['code' => '\\d+'], [['variable', '.', '[^/]++', '_format', true], ['variable', '/', '\\d+', 'code', true], ['text', '/_error']], [], []],
     'app_home' => [[], ['_controller' => 'App\\Controller\\PagejeuController::index'], [], [['text', '/']], [], []],
-    'app_pagejeu_show' => [['id'], ['_controller' => 'App\\Controller\\PagejeuController::show'], ['id' => '[0-9]+'], [['variable', '/', '[0-9]+', 'id', true], ['text', '/pages']], [], []],
+    'app_pagejeu_show' => [['id'], ['_controller' => 'App\\Controller\\PagejeuController::show'], ['id' => '\\d'], [['variable', '/', '\\d', 'id', true], ['text', '/pages']], [], []],
+    'app_login' => [[], ['_controller' => 'App\\Controller\\SecurityController::login'], [], [['text', '/login']], [], []],
+    'app_logout' => [[], ['_controller' => 'App\\Controller\\SecurityController::logout'], [], [['text', '/logout']], [], []],
 ];
