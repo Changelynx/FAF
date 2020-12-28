@@ -10,6 +10,7 @@ if (in_array(PHP_SAPI, ['cli', 'phpdbg'], true)) {
 }
 
 require dirname(__DIR__, 3).''.\DIRECTORY_SEPARATOR.'vendor/autoload.php';
+<<<<<<< HEAD
 require __DIR__.'/ContainerBcbSkBa/App_KernelDevDebugContainer.php';
 require __DIR__.'/ContainerBcbSkBa/EntityManager_9a5be93.php';
 require __DIR__.'/ContainerBcbSkBa/getUrlHelperService.php';
@@ -169,6 +170,77 @@ require __DIR__.'/ContainerBcbSkBa/get_Container_Private_TwigService.php';
 require __DIR__.'/ContainerBcbSkBa/get_Container_Private_Security_Csrf_TokenManagerService.php';
 require __DIR__.'/ContainerBcbSkBa/get_Container_Private_FilesystemService.php';
 require __DIR__.'/ContainerBcbSkBa/get_Container_Private_CacheClearerService.php';
+=======
+require __DIR__.'/ContainerT5oUud2/App_KernelDevDebugContainer.php';
+require __DIR__.'/ContainerT5oUud2/EntityManager_9a5be93.php';
+require __DIR__.'/ContainerT5oUud2/getTwig_Runtime_SecurityCsrfService.php';
+require __DIR__.'/ContainerT5oUud2/getTwig_Runtime_HttpkernelService.php';
+require __DIR__.'/ContainerT5oUud2/getSession_Storage_NativeService.php';
+require __DIR__.'/ContainerT5oUud2/getSessionService.php';
+require __DIR__.'/ContainerT5oUud2/getServicesResetterService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_User_Provider_Concrete_AppUserProviderService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_PasswordEncoderService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Logout_Listener_Default_MainService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Logout_Listener_CsrfTokenClearingService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_HttpUtilsService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Firewall_Map_Context_MainService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Firewall_Map_Context_DevService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_EncoderFactory_GenericService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Csrf_TokenStorageService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_ContextListener_0Service.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_ChannelListenerService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_AuthorizationCheckerService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_AuthenticationUtilsService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Authentication_Provider_Guard_MainService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Authentication_ManagerService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Authentication_Listener_Guard_MainService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_Authentication_Listener_Anonymous_MainService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurity_AccessListenerService.php';
+require __DIR__.'/ContainerT5oUud2/getSecrets_VaultService.php';
+require __DIR__.'/ContainerT5oUud2/getRouting_LoaderService.php';
+require __DIR__.'/ContainerT5oUud2/getFragment_Renderer_InlineService.php';
+require __DIR__.'/ContainerT5oUud2/getErrorControllerService.php';
+require __DIR__.'/ContainerT5oUud2/getDoctrine_Orm_DefaultListeners_AttachEntityListenersService.php';
+require __DIR__.'/ContainerT5oUud2/getDoctrine_Orm_DefaultEntityManagerService.php';
+require __DIR__.'/ContainerT5oUud2/getDoctrine_Dbal_DefaultConnectionService.php';
+require __DIR__.'/ContainerT5oUud2/getDoctrineService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_Security_Voter_VoteListenerService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_Security_Voter_Security_Access_SimpleRoleVoterService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_Security_Voter_Security_Access_AuthenticatedVoterService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_Security_UserValueResolverService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_Security_Access_DecisionManagerService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_VariadicService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_SessionService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_ServiceService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_RequestAttributeService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_RequestService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_NotTaggedControllerService.php';
+require __DIR__.'/ContainerT5oUud2/getDebug_ArgumentResolver_DefaultService.php';
+require __DIR__.'/ContainerT5oUud2/getContainer_EnvVarProcessorsLocatorService.php';
+require __DIR__.'/ContainerT5oUud2/getContainer_EnvVarProcessorService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_SystemClearerService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_SystemService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_GlobalClearerService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_AppClearerService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_AppService.php';
+require __DIR__.'/ContainerT5oUud2/getCache_AnnotationsService.php';
+require __DIR__.'/ContainerT5oUud2/getAnnotations_ReaderService.php';
+require __DIR__.'/ContainerT5oUud2/getAnnotations_CachedReaderService.php';
+require __DIR__.'/ContainerT5oUud2/getAnnotations_CacheService.php';
+require __DIR__.'/ContainerT5oUud2/getTemplateControllerService.php';
+require __DIR__.'/ContainerT5oUud2/getRedirectControllerService.php';
+require __DIR__.'/ContainerT5oUud2/getLoginAuthenticatorService.php';
+require __DIR__.'/ContainerT5oUud2/getUserRepositoryService.php';
+require __DIR__.'/ContainerT5oUud2/getSecurityControllerService.php';
+require __DIR__.'/ContainerT5oUud2/get_ServiceLocator_Fn4tINCService.php';
+require __DIR__.'/ContainerT5oUud2/get_ServiceLocator_UDgw6OlService.php';
+require __DIR__.'/ContainerT5oUud2/get_ServiceLocator_KfwZsneService.php';
+require __DIR__.'/ContainerT5oUud2/get_ServiceLocator_KfbR3DYService.php';
+require __DIR__.'/ContainerT5oUud2/get_Container_Private_TwigService.php';
+require __DIR__.'/ContainerT5oUud2/get_Container_Private_Security_Csrf_TokenManagerService.php';
+require __DIR__.'/ContainerT5oUud2/get_Container_Private_FilesystemService.php';
+require __DIR__.'/ContainerT5oUud2/get_Container_Private_CacheClearerService.php';
+>>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
 
 $classes = [];
 $classes[] = 'Symfony\Bundle\FrameworkBundle\FrameworkBundle';
@@ -192,11 +264,16 @@ $classes[] = 'Twig\Template';
 $classes[] = 'Twig\TemplateWrapper';
 $classes[] = 'Twig\Environment';
 $classes[] = 'Symfony\Component\HttpFoundation\RequestMatcher';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Component\DependencyInjection\ServiceLocator';
 $classes[] = 'App\Controller\PagejeuController';
 $classes[] = 'App\Entity\Pagejeu';
 $classes[] = 'App\Repository\PagejeuRepository';
+=======
+$classes[] = 'App\Controller\SecurityController';
+>>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
 $classes[] = 'App\Repository\UserRepository';
+$classes[] = 'App\Security\LoginAuthenticator';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\RedirectController';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Controller\TemplateController';
 $classes[] = 'Symfony\Component\Cache\DoctrineProvider';
@@ -272,11 +349,18 @@ $classes[] = 'Symfony\Component\HttpKernel\EventListener\LocaleAwareListener';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\LocaleListener';
 $classes[] = 'Symfony\Component\HttpKernel\Log\Logger';
 $classes[] = 'Symfony\Component\DependencyInjection\ParameterBag\ContainerBag';
+<<<<<<< HEAD
 $classes[] = 'Fidry\PsyshBundle\PsyshFacade';
 $classes[] = 'Symfony\Component\HttpFoundation\RequestStack';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\ResponseListener';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Routing\Router';
 $classes[] = 'Symfony\Component\Routing\Matcher\ExpressionLanguageProvider';
+=======
+$classes[] = 'Symfony\Component\HttpFoundation\RequestStack';
+$classes[] = 'Symfony\Component\HttpKernel\EventListener\ResponseListener';
+$classes[] = 'Symfony\Bundle\FrameworkBundle\Routing\Router';
+$classes[] = 'Symfony\Component\Config\ResourceCheckerConfigCacheFactory';
+>>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
 $classes[] = 'Symfony\Component\Routing\RequestContext';
 $classes[] = 'Symfony\Component\HttpKernel\EventListener\RouterListener';
 $classes[] = 'Symfony\Bundle\FrameworkBundle\Routing\DelegatingLoader';
@@ -298,10 +382,19 @@ $classes[] = 'Symfony\Component\Security\Core\Authorization\Voter\RoleVoter';
 $classes[] = 'Symfony\Component\Security\Http\Firewall\AccessListener';
 $classes[] = 'Symfony\Component\Security\Http\AccessMap';
 $classes[] = 'Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener';
+$classes[] = 'Symfony\Component\Security\Guard\Firewall\GuardAuthenticationListener';
+$classes[] = 'Symfony\Component\Security\Guard\GuardAuthenticatorHandler';
+$classes[] = 'Symfony\Component\Security\Http\Session\SessionAuthenticationStrategy';
 $classes[] = 'Symfony\Component\Security\Core\Authentication\AuthenticationProviderManager';
 $classes[] = 'Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider';
+<<<<<<< HEAD
 $classes[] = 'Symfony\Component\Security\Http\EntryPoint\RetryAuthenticationEntryPoint';
+=======
+$classes[] = 'Symfony\Component\Security\Guard\Provider\GuardAuthenticationProvider';
+$classes[] = 'Symfony\Component\Security\Core\User\UserChecker';
+>>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
 $classes[] = 'Symfony\Component\Security\Core\Authentication\AuthenticationTrustResolver';
+$classes[] = 'Symfony\Component\Security\Http\Authentication\AuthenticationUtils';
 $classes[] = 'Symfony\Component\Security\Core\Authorization\AuthorizationChecker';
 $classes[] = 'Symfony\Component\Security\Http\Firewall\ChannelListener';
 $classes[] = 'Symfony\Component\Security\Http\Firewall\ContextListener';
@@ -314,9 +407,16 @@ $classes[] = 'Symfony\Bundle\SecurityBundle\Security\FirewallMap';
 $classes[] = 'Symfony\Bundle\SecurityBundle\Security\FirewallConfig';
 $classes[] = 'Symfony\Bundle\SecurityBundle\Security\FirewallContext';
 $classes[] = 'Symfony\Bundle\SecurityBundle\Security\LazyFirewallContext';
+<<<<<<< HEAD
+=======
+$classes[] = 'Symfony\Component\Security\Http\Firewall\ExceptionListener';
+$classes[] = 'Symfony\Component\Security\Http\Firewall\LogoutListener';
+>>>>>>> 691186d77d088bdcaa3cc69aa85ef5a72692d8cc
 $classes[] = 'Symfony\Component\Security\Http\HttpUtils';
 $classes[] = 'Symfony\Component\Security\Http\Impersonate\ImpersonateUrlGenerator';
 $classes[] = 'Symfony\Component\Security\Http\EventListener\CsrfTokenClearingLogoutListener';
+$classes[] = 'Symfony\Component\Security\Http\EventListener\DefaultLogoutListener';
+$classes[] = 'Symfony\Component\Security\Http\EventListener\SessionLogoutListener';
 $classes[] = 'Symfony\Component\Security\Http\Logout\LogoutUrlGenerator';
 $classes[] = 'Symfony\Component\Security\Core\Encoder\UserPasswordEncoder';
 $classes[] = 'Symfony\Component\Security\Http\RememberMe\ResponseListener';
