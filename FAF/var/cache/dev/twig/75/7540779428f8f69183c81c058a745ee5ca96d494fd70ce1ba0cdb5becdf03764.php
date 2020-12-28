@@ -128,6 +128,6 @@ class __TwigTemplate_d3c95d9fc473a034cb007c53106a3c0ba0fa9d4667fdb316601a246bac2
         <p>{{ page.description }}</p>
     {% endfor %}
 {% endblock %}
-", "pagejeu/index.html.twig", "C:\\Users\\Alexis\\Downloads\\FAF Fred\\FAF\\FAF\\templates\\pagejeu\\index.html.twig");
+", "pagejeu/index.html.twig", "C:\\Users\\Alexis\\Documents\\IUT_2A\\Web\\ProjetGroupe\\FAF\\FAF\\templates\\pagejeu\\index.html.twig");
     }
 }
